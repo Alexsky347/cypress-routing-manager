@@ -1,0 +1,19 @@
+{
+  "name": "endtoend",
+  "version": "1.0.0",
+  "description": "npx @cypress/chrome-recorder <relative path to target test file>\r npx @cypress/chrome-recorder <relative path to target test folder>/*.json\r npx @cypress/chrome-recorder *.json",
+  "main": "RM.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:dev": "cypress open --env version='local'",
+    "cypress:staging": "cypress open --env version='staging'",
+    "cypress:prod": "cypress open --env version='prod'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.13.0",
+    "typescript": "^5.1.3"
+  }
+}

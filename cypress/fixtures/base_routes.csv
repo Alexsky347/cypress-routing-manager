@@ -1,0 +1,3 @@
+flow;label;companyCode;siteCode;usersLevel1;netAmount2;usersLevel2;netAmount3;usersLevel3;netAmount4;usersLevel4
+ACME-BAP;Ma route 1;ACME_FR;ACME_AMIENS;benoit;1000;yves;10000;thierry;;
+ACME-BAP;La route 2;ACME_FR;ACME_NANCY;benoit;100;yves;1000;thierry;10000;benoit

@@ -1,0 +1,43 @@
+describe("UM", () => {
+  it("tests UM", () => {
+    cy.viewport(1353, 1262);
+    cy.visit("https://azrb38mabr3xed1.itesoft.local/um/mgr/#/login");
+    cy.get("#login-tenant").click();
+    cy.get("#login-tenant").type("ACME");
+    cy.get("#login-user-name").click();
+    cy.get("#login-user-name").type("admin");
+    cy.get("#login-password").click();
+    cy.get("#login-password").type("admin");
+    cy.get("form > div > div:nth-of-type(2) span").click();
+    cy.get("#navbar-link-organization span.flex-link-text").click();
+    cy.get("#organization-tree-unit-routing_manager-label").click();
+    cy.get("#organization-button-create mat-icon").click();
+    cy.get("#organization-menu-action-create-6 > span").click();
+    cy.get("#unit-label-0-value").click();
+    cy.get("#unit-label-0-value").type("RM-CONTAIhdNER");
+    cy.get("#unit-button-validate > span.mat-button-wrapper").click();
+    // cy.get("#organization-tree-unit-routing_manager-label").click();
+    cy.wait(1000)
+    cy.get("#organization-button-create").click();
+    cy.get("#organization-button-create").click();
+    cy.get("#unit-label-0-value").click();
+    cy.get("#unit-label-0-value").type("workflow");
+    cy.get("#unit-button-validate > span.mat-button-wrapper").click();
+    cy.get("div:nth-of-type(6) div.unit-label").click();
+    cy.get("#organization-button-create mat-icon").click();
+    cy.get("#organization-menu-action-create-6").click();
+    cy.get("#unit-label-0-value").click();
+    cy.get("#unit-label-0-value").type("ACME-BAP");
+    cy.get("mat-card-content > div.flex-line").click();
+    cy.get("#unit-name").type("ACME-BAP");
+    cy.get("mat-card-content > div.ng-star-inserted > div").click();
+    cy.get("#unit-label-0-value").type("ACME");
+    cy.get("#unit-button-validate > span.mat-button-wrapper").click();
+    cy.get("#organization-tree-unit-workflow-label").click();
+    cy.get("#organization-button-create mat-icon").click();
+    cy.get("#organization-menu-action-create-6 > span").click();
+    cy.get("#unit-label-0-value").click();
+    cy.get("#unit-label-0-value").type("routing");
+    cy.get("#unit-button-validate").click();
+  });
+});

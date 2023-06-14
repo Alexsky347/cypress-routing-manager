@@ -1,0 +1,3793 @@
+{
+    "title": "RM",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 2560,
+            "height": 1039,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "chrome://newtab/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "chrome://newtab/",
+                    "title": "Nouvel onglet de navigation privée"
+                }
+            ]
+        },
+        {
+            "type": "navigate",
+            "url": "https://azrb38mabr3xed1.itesoft.local/um/mgr/#/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://azrb38mabr3xed1.itesoft.local/um/mgr/#/",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#login-tenant"
+                ],
+                [
+                    "xpath///*[@id=\"login-tenant\"]"
+                ],
+                [
+                    "pierce/#login-tenant"
+                ]
+            ],
+            "offsetY": 9.5,
+            "offsetX": 97.1875
+        },
+        {
+            "type": "change",
+            "value": "ACME",
+            "selectors": [
+                [
+                    "#login-tenant"
+                ],
+                [
+                    "xpath///*[@id=\"login-tenant\"]"
+                ],
+                [
+                    "pierce/#login-tenant"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#login-user-name"
+                ],
+                [
+                    "xpath///*[@id=\"login-user-name\"]"
+                ],
+                [
+                    "pierce/#login-user-name"
+                ]
+            ],
+            "offsetY": 18.09375,
+            "offsetX": 51.1875
+        },
+        {
+            "type": "change",
+            "value": "admin",
+            "selectors": [
+                [
+                    "#login-user-name"
+                ],
+                [
+                    "xpath///*[@id=\"login-user-name\"]"
+                ],
+                [
+                    "pierce/#login-user-name"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#login-password"
+                ],
+                [
+                    "xpath///*[@id=\"login-password\"]"
+                ],
+                [
+                    "pierce/#login-password"
+                ]
+            ],
+            "offsetY": 9.6875,
+            "offsetX": 98.1875
+        },
+        {
+            "type": "change",
+            "value": "admin",
+            "selectors": [
+                [
+                    "#login-password"
+                ],
+                [
+                    "xpath///*[@id=\"login-password\"]"
+                ],
+                [
+                    "pierce/#login-password"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "form > div > div:nth-of-type(2) span"
+                ],
+                [
+                    "xpath///*[@id=\"login-button-sign-in\"]/div/span"
+                ],
+                [
+                    "pierce/form > div > div:nth-of-type(2) span"
+                ],
+                [
+                    "text/Connexion"
+                ]
+            ],
+            "offsetY": 3.6875,
+            "offsetX": 67.671875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#navbar-link-organization span.flex-link-text"
+                ],
+                [
+                    "xpath///*[@id=\"navbar-link-organization\"]/span/span[3]"
+                ],
+                [
+                    "pierce/#navbar-link-organization span.flex-link-text"
+                ]
+            ],
+            "offsetY": 14.703125,
+            "offsetX": 69
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(5) mat-icon"
+                ],
+                [
+                    "xpath///*[@id=\"organization-tree-unit-routing_manager-button-expand\"]/mat-icon"
+                ],
+                [
+                    "pierce/div:nth-of-type(5) mat-icon"
+                ]
+            ],
+            "offsetY": 14.75,
+            "offsetX": 16
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(6) mat-icon"
+                ],
+                [
+                    "xpath///*[@id=\"organization-tree-unit-rm_flux_bap-button-expand\"]/mat-icon"
+                ],
+                [
+                    "pierce/div:nth-of-type(6) mat-icon"
+                ]
+            ],
+            "offsetY": 14.75,
+            "offsetX": 15
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#organization-tree-unit-ACME-BAP-label"
+                ],
+                [
+                    "xpath///*[@id=\"organization-tree-unit-ACME-BAP-label\"]"
+                ],
+                [
+                    "pierce/#organization-tree-unit-ACME-BAP-label"
+                ],
+                [
+                    "text/Routing Manager Flux ACME"
+                ]
+            ],
+            "offsetY": 10.75,
+            "offsetX": 7
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#organization-tree-unit-rm_flux_bap-label"
+                ],
+                [
+                    "xpath///*[@id=\"organization-tree-unit-rm_flux_bap-label\"]"
+                ],
+                [
+                    "pierce/#organization-tree-unit-rm_flux_bap-label"
+                ]
+            ],
+            "offsetY": 1.75,
+            "offsetX": 168
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#organization-button-create mat-icon"
+                ],
+                [
+                    "xpath///*[@id=\"organization-button-create\"]/span[1]/mat-icon"
+                ],
+                [
+                    "pierce/#organization-button-create mat-icon"
+                ]
+            ],
+            "offsetY": 12.5,
+            "offsetX": 3.171875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#organization-menu-action-create-6 > span"
+                ],
+                [
+                    "xpath///*[@id=\"organization-menu-action-create-6\"]/span"
+                ],
+                [
+                    "pierce/#organization-menu-action-create-6 > span"
+                ]
+            ],
+            "offsetY": 16.25,
+            "offsetX": 51.671875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.ng-star-inserted mat-form-field.um-field div.mat-form-field-infix"
+                ],
+                [
+                    "xpath///*[@id=\"organization-form-content\"]/mat-card/mat-card-content/div[1]/div/div[2]/mat-form-field[1]/div/div[1]/div[3]"
+                ],
+                [
+                    "pierce/div.ng-star-inserted mat-form-field.um-field div.mat-form-field-infix"
+                ]
+            ],
+            "offsetY": 29.546875,
+            "offsetX": 128.34375
+        },
+        {
+            "type": "change",
+            "value": "S",
+            "selectors": [
+                [
+                    "#unit-label-0-value"
+                ],
+                [
+                    "xpath///*[@id=\"unit-label-0-value\"]"
+                ],
+                [
+                    "pierce/#unit-label-0-value"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "s",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Second flow",
+            "selectors": [
+                [
+                    "#unit-label-0-value"
+                ],
+                [
+                    "xpath///*[@id=\"unit-label-0-value\"]"
+                ],
+                [
+                    "pierce/#unit-label-0-value"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Validate"
+                ],
+                [
+                    "#unit-button-validate"
+                ],
+                [
+                    "xpath///*[@id=\"unit-button-validate\"]"
+                ],
+                [
+                    "pierce/#unit-button-validate"
+                ]
+            ],
+            "offsetY": 6,
+            "offsetX": 66.546875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Users[role=\"tab\"]"
+                ],
+                [
+                    "#mat-tab-label-0-1"
+                ],
+                [
+                    "xpath///*[@id=\"mat-tab-label-0-1\"]"
+                ],
+                [
+                    "pierce/#mat-tab-label-0-1"
+                ]
+            ],
+            "offsetY": 2,
+            "offsetX": 120.671875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#unit-users-toolbar-button-manage-appointments mat-icon"
+                ],
+                [
+                    "xpath///*[@id=\"unit-users-toolbar-button-manage-appointments\"]/span[1]/mat-icon"
+                ],
+                [
+                    "pierce/#unit-users-toolbar-button-manage-appointments mat-icon"
+                ]
+            ],
+            "offsetY": 18.25,
+            "offsetX": 6
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#user-appointments-input-user-filter"
+                ],
+                [
+                    "xpath///*[@id=\"user-appointments-input-user-filter\"]"
+                ],
+                [
+                    "pierce/#user-appointments-input-user-filter"
+                ]
+            ],
+            "offsetY": 9.671875,
+            "offsetX": 127.609375
+        },
+        {
+            "type": "change",
+            "value": "fgf",
+            "selectors": [
+                [
+                    "#user-appointments-input-user-filter"
+                ],
+                [
+                    "xpath///*[@id=\"user-appointments-input-user-filter\"]"
+                ],
+                [
+                    "pierce/#user-appointments-input-user-filter"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.cdk-overlay-connected-position-bounding-box span"
+                ],
+                [
+                    "xpath///*[@id=\"mat-option-11\"]/span"
+                ],
+                [
+                    "pierce/div.cdk-overlay-connected-position-bounding-box span"
+                ],
+                [
+                    "text/François-Gérald"
+                ]
+            ],
+            "offsetY": 19.921875,
+            "offsetX": 147.609375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#user-appointments-input-profile-filter"
+                ],
+                [
+                    "xpath///*[@id=\"user-appointments-input-profile-filter\"]"
+                ],
+                [
+                    "pierce/#user-appointments-input-profile-filter"
+                ]
+            ],
+            "offsetY": 14.359375,
+            "offsetX": 107.609375
+        },
+        {
+            "type": "change",
+            "value": "ass",
+            "selectors": [
+                [
+                    "#user-appointments-input-profile-filter"
+                ],
+                [
+                    "xpath///*[@id=\"user-appointments-input-profile-filter\"]"
+                ],
+                [
+                    "pierce/#user-appointments-input-profile-filter"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#mat-option-13 > span"
+                ],
+                [
+                    "xpath///*[@id=\"mat-option-13\"]/span"
+                ],
+                [
+                    "pierce/#mat-option-13 > span"
+                ],
+                [
+                    "text/Assignations"
+                ]
+            ],
+            "offsetY": 22.609375,
+            "offsetX": 113.609375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "span.mat-slide-toggle-bar"
+                ],
+                [
+                    "xpath///*[@id=\"user-appointments-toggle-appointment-fgf-assignation-administrator\"]/label/span[1]"
+                ],
+                [
+                    "pierce/span.mat-slide-toggle-bar"
+                ]
+            ],
+            "offsetY": 6.71875,
+            "offsetX": 25
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Manage users appointments in Second flow[role=\"heading\"]",
+                    "aria/[role=\"img\"]"
+                ],
+                [
+                    "#mat-dialog-title-0 mat-icon"
+                ],
+                [
+                    "xpath///*[@id=\"user-appointments-button-close-form\"]/span[1]/mat-icon"
+                ],
+                [
+                    "pierce/#mat-dialog-title-0 mat-icon"
+                ],
+                [
+                    "text/close"
+                ]
+            ],
+            "offsetY": 4.53125,
+            "offsetX": 16
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#organization-tree-unit-ACME-BAP"
+                ],
+                [
+                    "xpath///*[@id=\"organization-tree-unit-ACME-BAP\"]"
+                ],
+                [
+                    "pierce/#organization-tree-unit-ACME-BAP"
+                ]
+            ],
+            "offsetY": 29.75,
+            "offsetX": 205
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Users[role=\"tab\"]"
+                ],
+                [
+                    "#mat-tab-label-0-1"
+                ],
+                [
+                    "xpath///*[@id=\"mat-tab-label-0-1\"]"
+                ],
+                [
+                    "pierce/#mat-tab-label-0-1"
+                ]
+            ],
+            "offsetY": 8,
+            "offsetX": 124.671875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(8) div.unit-label"
+                ],
+                [
+                    "xpath///*[@id=\"organization-tree-unit-second-flow\"]/div[2]"
+                ],
+                [
+                    "pierce/div:nth-of-type(8) div.unit-label"
+                ]
+            ],
+            "offsetY": 7.75,
+            "offsetX": 117
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Users[role=\"tab\"]"
+                ],
+                [
+                    "#mat-tab-label-0-1"
+                ],
+                [
+                    "xpath///*[@id=\"mat-tab-label-0-1\"]"
+                ],
+                [
+                    "pierce/#mat-tab-label-0-1"
+                ]
+            ],
+            "offsetY": 36,
+            "offsetX": 61.671875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#unit-users-toolbar-button-manage-appointments"
+                ],
+                [
+                    "xpath///*[@id=\"unit-users-toolbar-button-manage-appointments\"]"
+                ],
+                [
+                    "pierce/#unit-users-toolbar-button-manage-appointments"
+                ]
+            ],
+            "offsetY": 23,
+            "offsetX": 34
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#user-appointments-input-user-filter"
+                ],
+                [
+                    "xpath///*[@id=\"user-appointments-input-user-filter\"]"
+                ],
+                [
+                    "pierce/#user-appointments-input-user-filter"
+                ]
+            ],
+            "offsetY": 13.671875,
+            "offsetX": 155.609375
+        },
+        {
+            "type": "change",
+            "value": "benoit",
+            "selectors": [
+                [
+                    "#user-appointments-input-user-filter"
+                ],
+                [
+                    "xpath///*[@id=\"user-appointments-input-user-filter\"]"
+                ],
+                [
+                    "pierce/#user-appointments-input-user-filter"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#mat-option-17 > span"
+                ],
+                [
+                    "xpath///*[@id=\"mat-option-17\"]/span"
+                ],
+                [
+                    "pierce/#mat-option-17 > span"
+                ],
+                [
+                    "text/Benoit P."
+                ]
+            ],
+            "offsetY": 42.921875,
+            "offsetX": 232.609375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#user-appointments-input-profile-filter"
+                ],
+                [
+                    "xpath///*[@id=\"user-appointments-input-profile-filter\"]"
+                ],
+                [
+                    "pierce/#user-appointments-input-profile-filter"
+                ]
+            ],
+            "offsetY": 12.359375,
+            "offsetX": 183.609375
+        },
+        {
+            "type": "change",
+            "value": "ass",
+            "selectors": [
+                [
+                    "#user-appointments-input-profile-filter"
+                ],
+                [
+                    "xpath///*[@id=\"user-appointments-input-profile-filter\"]"
+                ],
+                [
+                    "pierce/#user-appointments-input-profile-filter"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#mat-option-20 > span"
+                ],
+                [
+                    "xpath///*[@id=\"mat-option-20\"]/span"
+                ],
+                [
+                    "pierce/#mat-option-20 > span"
+                ]
+            ],
+            "offsetY": 27.609375,
+            "offsetX": 150.609375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "span.mat-slide-toggle-thumb"
+                ],
+                [
+                    "xpath///*[@id=\"user-appointments-toggle-appointment-benoit-assignation-administrator\"]/label/span[1]/span/span[1]"
+                ],
+                [
+                    "pierce/span.mat-slide-toggle-thumb"
+                ]
+            ],
+            "offsetY": 8.71875,
+            "offsetX": 19
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Manage users appointments in Second flow[role=\"heading\"]",
+                    "aria/[role=\"img\"]"
+                ],
+                [
+                    "#mat-dialog-title-1 mat-icon"
+                ],
+                [
+                    "xpath///*[@id=\"user-appointments-button-close-form\"]/span[1]/mat-icon"
+                ],
+                [
+                    "pierce/#mat-dialog-title-1 mat-icon"
+                ],
+                [
+                    "text/close"
+                ]
+            ],
+            "offsetY": 15.53125,
+            "offsetX": 16
+        },
+        {
+            "type": "navigate",
+            "url": "chrome://newtab/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "chrome://newtab/",
+                    "title": "Nouvel onglet de navigation privée"
+                }
+            ]
+        },
+        {
+            "type": "navigate",
+            "url": "https://azrb38mabr3xed1.itesoft.local/portal/?token-id=42f6ef1e-58ff-4059-824b-5622a120f143",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://azrb38mabr3xed1.itesoft.local/portal/?token-id=42f6ef1e-58ff-4059-824b-5622a120f143",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id=",
+            "selectors": [
+                [
+                    "aria/Identifiant *"
+                ],
+                [
+                    "#username"
+                ],
+                [
+                    "xpath///*[@id=\"username\"]"
+                ],
+                [
+                    "pierce/#username"
+                ]
+            ],
+            "offsetY": 22,
+            "offsetX": 81
+        },
+        {
+            "type": "change",
+            "value": "benoit",
+            "selectors": [
+                [
+                    "aria/Identifiant *"
+                ],
+                [
+                    "#username"
+                ],
+                [
+                    "xpath///*[@id=\"username\"]"
+                ],
+                [
+                    "pierce/#username"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id="
+        },
+        {
+            "type": "keyDown",
+            "target": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id=",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id="
+        },
+        {
+            "type": "change",
+            "value": "a",
+            "selectors": [
+                [
+                    "aria/Mot de passe *"
+                ],
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id="
+        },
+        {
+            "type": "keyDown",
+            "target": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id=",
+            "key": "Enter",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id=",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "keyUp",
+            "key": "Enter",
+            "target": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id=",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://azrb38mabr3xed1.itesoft.local/portal/?token-id=5f9e49a9-e369-4a82-85e6-e0956f33149a",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/portal/?token-id=5f9e49a9-e369-4a82-85e6-e0956f33149a",
+            "selectors": [
+                [
+                    "aria/Image of product product.as.title"
+                ],
+                [
+                    "div:nth-of-type(7) img"
+                ],
+                [
+                    "xpath//html/body/app-root/app-view/div/app-tiles-container/div/div/div[7]/div/div[2]/img"
+                ],
+                [
+                    "pierce/div:nth-of-type(7) img"
+                ]
+            ],
+            "offsetY": 110,
+            "offsetX": 39.328125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "mat-sidenav-content span > span"
+                ],
+                [
+                    "xpath///*[@id=\"mat-select-value-1\"]/span/span"
+                ],
+                [
+                    "pierce/mat-sidenav-content span > span"
+                ],
+                [
+                    "text/Routing Manager"
+                ]
+            ],
+            "offsetY": 9.53125,
+            "offsetX": 108
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Second flow"
+                ],
+                [
+                    "#mat-option-1"
+                ],
+                [
+                    "xpath///*[@id=\"mat-option-1\"]"
+                ],
+                [
+                    "pierce/#mat-option-1"
+                ]
+            ],
+            "offsetY": 42.53125,
+            "offsetX": 70
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "div.actions-container > app-btn-action:nth-of-type(1) span"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[1]/app-btn-action[1]/button/span"
+                ],
+                [
+                    "pierce/div.actions-container > app-btn-action:nth-of-type(1) span"
+                ],
+                [
+                    "text/Ajouter Route"
+                ]
+            ],
+            "offsetY": 10.03125,
+            "offsetX": 79.34375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "td.cdk-column-label input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[1]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-label input"
+                ]
+            ],
+            "offsetY": 24.53125,
+            "offsetX": 102
+        },
+        {
+            "type": "change",
+            "value": "label",
+            "selectors": [
+                [
+                    "td.cdk-column-label input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[1]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-label input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "keyDown",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "change",
+            "value": "company",
+            "selectors": [
+                [
+                    "td.cdk-column-companyCode input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[2]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-companyCode input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "keyDown",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "change",
+            "value": "site",
+            "selectors": [
+                [
+                    "td.cdk-column-siteCode input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[3]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-siteCode input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "td.cdk-column-usersLevel1 div.p-multiselect-label-container"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[4]/app-custom-multi-select/p-multiselect/div/div[2]"
+                ],
+                [
+                    "pierce/td.cdk-column-usersLevel1 div.p-multiselect-label-container"
+                ]
+            ],
+            "offsetY": 23.53125,
+            "offsetX": 83.734375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Laurent B."
+                ],
+                [
+                    "p-multiselectitem:nth-of-type(3) > li"
+                ],
+                [
+                    "xpath//html/body/div[3]/div/div/div[2]/ul/p-multiselectitem[3]/li"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(3) > li"
+                ]
+            ],
+            "offsetY": 8.53125,
+            "offsetX": 115.734375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Christophe L."
+                ],
+                [
+                    "p-multiselectitem:nth-of-type(4) > li"
+                ],
+                [
+                    "xpath//html/body/div[3]/div/div/div[2]/ul/p-multiselectitem[4]/li"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(4) > li"
+                ]
+            ],
+            "offsetY": 11.53125,
+            "offsetX": 120.734375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "div.ng-tns-c46-23 button > span"
+                ],
+                [
+                    "xpath//html/body/div[3]/div/div/div[1]/button/span"
+                ],
+                [
+                    "pierce/div.ng-tns-c46-23 button > span"
+                ]
+            ],
+            "offsetY": 8.53125,
+            "offsetX": 5.734375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "td.cdk-column-usersLevel2 div.p-multiselect-label-container"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[6]/app-custom-multi-select/p-multiselect/div/div[2]"
+                ],
+                [
+                    "pierce/td.cdk-column-usersLevel2 div.p-multiselect-label-container"
+                ]
+            ],
+            "offsetY": 3.53125,
+            "offsetX": 87.65625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Christophe L."
+                ],
+                [
+                    "p-multiselectitem:nth-of-type(4) > li"
+                ],
+                [
+                    "xpath//html/body/div[3]/div/div/div[2]/ul/p-multiselectitem[4]/li"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(4) > li"
+                ]
+            ],
+            "offsetY": 13.53125,
+            "offsetX": 150.65625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "div.ng-tns-c46-24 button > span"
+                ],
+                [
+                    "xpath//html/body/div[3]/div/div/div[1]/button/span"
+                ],
+                [
+                    "pierce/div.ng-tns-c46-24 button > span"
+                ]
+            ],
+            "offsetY": 14.53125,
+            "offsetX": 5.65625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Sauvegarder[role=\"img\"]"
+                ],
+                [
+                    "button.icon-success svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/button.icon-success svg"
+                ]
+            ],
+            "offsetY": 9.78125,
+            "offsetX": 7.421875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Modifier[role=\"img\"]"
+                ],
+                [
+                    "button.icon-primary svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/button.icon-primary svg"
+                ]
+            ],
+            "offsetY": 10.78125,
+            "offsetX": 7.421875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "td.cdk-column-usersLevel2 span.p-multiselect-token-icon"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[6]/app-custom-multi-select/p-multiselect/div/div[2]/div/div/span[2]"
+                ],
+                [
+                    "pierce/td.cdk-column-usersLevel2 span.p-multiselect-token-icon"
+                ]
+            ],
+            "offsetY": 8.53125,
+            "offsetX": 8.90625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "td.cdk-column-netAmount2 input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[5]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-netAmount2 input"
+                ]
+            ],
+            "offsetY": 13.53125,
+            "offsetX": 84.3125
+        },
+        {
+            "type": "change",
+            "value": "1457",
+            "selectors": [
+                [
+                    "td.cdk-column-netAmount2 input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[5]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-netAmount2 input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Sauvegarder[role=\"img\"]"
+                ],
+                [
+                    "button.icon-success svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/button.icon-success svg"
+                ]
+            ],
+            "offsetY": 12.78125,
+            "offsetX": 3.421875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "td.cdk-column-usersLevel2 div.p-multiselect-label-container"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[6]/app-custom-multi-select/p-multiselect/div/div[2]"
+                ],
+                [
+                    "pierce/td.cdk-column-usersLevel2 div.p-multiselect-label-container"
+                ]
+            ],
+            "offsetY": 29.53125,
+            "offsetX": 46.65625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "p-multiselectitem:nth-of-type(2) > li > span"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[2]/ul/p-multiselectitem[2]/li/span"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(2) > li > span"
+                ]
+            ],
+            "offsetY": 2.53125,
+            "offsetX": 44.65625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Benoit P.[role=\"listitem\"]"
+                ],
+                [
+                    "p-multiselectitem:nth-of-type(1) > li"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[2]/ul/p-multiselectitem[1]/li"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(1) > li"
+                ]
+            ],
+            "offsetY": 13.53125,
+            "offsetX": 88.65625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "div.p-multiselect-header > button"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[1]/button"
+                ],
+                [
+                    "pierce/div.p-multiselect-header > button"
+                ]
+            ],
+            "offsetY": 25.53125,
+            "offsetX": 25.65625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/edit"
+                ],
+                [
+                    "button.icon-success"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[11]/div/button[1]"
+                ],
+                [
+                    "pierce/button.icon-success"
+                ]
+            ],
+            "offsetY": 19.03125,
+            "offsetX": 34.421875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/edit"
+                ],
+                [
+                    "button.icon-primary"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[11]/div/button[1]"
+                ],
+                [
+                    "pierce/button.icon-primary"
+                ]
+            ],
+            "offsetY": 20.03125,
+            "offsetX": 34.421875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/company[role=\"textbox\"]"
+                ],
+                [
+                    "td.cdk-column-companyCode input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[2]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-companyCode input"
+                ],
+                [
+                    "text/company"
+                ]
+            ],
+            "offsetY": 10.53125,
+            "offsetX": 128.578125
+        },
+        {
+            "type": "change",
+            "value": "",
+            "selectors": [
+                [
+                    "aria/company[role=\"textbox\"]"
+                ],
+                [
+                    "td.cdk-column-companyCode input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[2]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-companyCode input"
+                ],
+                [
+                    "text/company"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/site[role=\"textbox\"]"
+                ],
+                [
+                    "td.cdk-column-siteCode input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[3]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-siteCode input"
+                ]
+            ],
+            "offsetY": 21.53125,
+            "offsetX": 118.15625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Sauvegarder[role=\"img\"]"
+                ],
+                [
+                    "button.icon-success svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/button.icon-success svg"
+                ]
+            ],
+            "offsetY": 14.78125,
+            "offsetX": 0.421875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Modifier[role=\"img\"]"
+                ],
+                [
+                    "button.icon-primary svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/button.icon-primary svg"
+                ]
+            ],
+            "offsetY": 12.78125,
+            "offsetX": 12.421875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/site[role=\"textbox\"]"
+                ],
+                [
+                    "td.cdk-column-siteCode input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[3]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-siteCode input"
+                ]
+            ],
+            "offsetY": 21.53125,
+            "offsetX": 96.15625
+        },
+        {
+            "type": "change",
+            "value": "",
+            "selectors": [
+                [
+                    "aria/site[role=\"textbox\"]"
+                ],
+                [
+                    "td.cdk-column-siteCode input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[3]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-siteCode input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Sauvegarder[role=\"img\"]"
+                ],
+                [
+                    "button.icon-success svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/button.icon-success svg"
+                ]
+            ],
+            "offsetY": 13.78125,
+            "offsetX": 5.421875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/site"
+                ],
+                [
+                    "td.cdk-column-siteCode input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[3]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-siteCode input"
+                ]
+            ],
+            "offsetY": 15.53125,
+            "offsetX": 119.15625
+        },
+        {
+            "type": "change",
+            "value": "site",
+            "selectors": [
+                [
+                    "aria/site[role=\"textbox\"]"
+                ],
+                [
+                    "td.cdk-column-siteCode input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[3]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-siteCode input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/company"
+                ],
+                [
+                    "td.cdk-column-companyCode input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[2]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-companyCode input"
+                ]
+            ],
+            "offsetY": 20.53125,
+            "offsetX": 39.578125
+        },
+        {
+            "type": "change",
+            "value": "company",
+            "selectors": [
+                [
+                    "aria/company"
+                ],
+                [
+                    "td.cdk-column-companyCode input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[2]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-companyCode input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/label[role=\"textbox\"]"
+                ],
+                [
+                    "td.cdk-column-label input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[1]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-label input"
+                ],
+                [
+                    "text/label"
+                ]
+            ],
+            "offsetY": 20.53125,
+            "offsetX": 104
+        },
+        {
+            "type": "change",
+            "value": "",
+            "selectors": [
+                [
+                    "aria/label[role=\"textbox\"]"
+                ],
+                [
+                    "td.cdk-column-label input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[1]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-label input"
+                ],
+                [
+                    "text/label"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Sauvegarder[role=\"img\"]",
+                    "aria/[role=\"graphics-symbol\"]"
+                ],
+                [
+                    "button.icon-success path"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[11]/div/button[1]/fa-icon/svg/path"
+                ],
+                [
+                    "pierce/button.icon-success path"
+                ]
+            ],
+            "offsetY": 5.65625,
+            "offsetX": 15.421875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Modifier[role=\"img\"]"
+                ],
+                [
+                    "button.icon-primary svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/button.icon-primary svg"
+                ]
+            ],
+            "offsetY": 11.78125,
+            "offsetX": 7.421875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/label"
+                ],
+                [
+                    "td.cdk-column-label input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[1]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-label input"
+                ]
+            ],
+            "offsetY": 23.53125,
+            "offsetX": 91
+        },
+        {
+            "type": "change",
+            "value": "label",
+            "selectors": [
+                [
+                    "aria/label[role=\"textbox\"]"
+                ],
+                [
+                    "td.cdk-column-label input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[1]/app-input-handler/input"
+                ],
+                [
+                    "pierce/td.cdk-column-label input"
+                ],
+                [
+                    "text/label"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Sauvegarder[role=\"img\"]"
+                ],
+                [
+                    "button.icon-success svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/button.icon-success svg"
+                ]
+            ],
+            "offsetY": 3.78125,
+            "offsetX": 8.421875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "div.actions-container > div:nth-of-type(1) span"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[1]/div[1]/app-btn-action/button/span"
+                ],
+                [
+                    "pierce/div.actions-container > div:nth-of-type(1) span"
+                ],
+                [
+                    "text/Importer en CSV"
+                ]
+            ],
+            "offsetY": 5.03125,
+            "offsetX": 14.53125
+        },
+        {
+            "type": "change",
+            "value": "C:\\fakepath\\approvalroutes (22).csv",
+            "selectors": [
+                [
+                    "div.actions-container input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[1]/div[1]/input"
+                ],
+                [
+                    "pierce/div.actions-container input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Non"
+                ],
+                [
+                    "div.cdk-overlay-container button:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"mat-mdc-dialog-0\"]/div/div/app-custom-mat-dialog/mat-dialog-actions/button[1]"
+                ],
+                [
+                    "pierce/div.cdk-overlay-container button:nth-of-type(1)"
+                ],
+                [
+                    "text/Non"
+                ]
+            ],
+            "offsetY": 12.5,
+            "offsetX": 77.171875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "div.actions-container > div:nth-of-type(1) span"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[1]/div[1]/app-btn-action/button/span"
+                ],
+                [
+                    "pierce/div.actions-container > div:nth-of-type(1) span"
+                ],
+                [
+                    "text/Importer en CSV"
+                ]
+            ],
+            "offsetY": 10.03125,
+            "offsetX": 72.53125
+        },
+        {
+            "type": "change",
+            "value": "C:\\fakepath\\approvalroutes (21).csv",
+            "selectors": [
+                [
+                    "div.actions-container input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[1]/div[1]/input"
+                ],
+                [
+                    "pierce/div.actions-container input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Oui"
+                ],
+                [
+                    "button.btn-primary"
+                ],
+                [
+                    "xpath///*[@id=\"mat-mdc-dialog-1\"]/div/div/app-custom-mat-dialog/mat-dialog-actions/button[2]"
+                ],
+                [
+                    "pierce/button.btn-primary"
+                ],
+                [
+                    "text/Oui"
+                ]
+            ],
+            "offsetY": 12.5,
+            "offsetX": 52.703125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Fermer"
+                ],
+                [
+                    "div.cdk-overlay-container button"
+                ],
+                [
+                    "xpath///*[@id=\"mat-mdc-dialog-2\"]/div/div/app-result-popup-import/mat-dialog-actions/button"
+                ],
+                [
+                    "pierce/div.cdk-overlay-container button"
+                ],
+                [
+                    "text/Fermer"
+                ]
+            ],
+            "offsetY": 12.5,
+            "offsetX": 74.5
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "div.actions-container div.mat-mdc-form-field-infix"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[1]/app-custom-select/div/mat-form-field/div[1]/div/div[2]"
+                ],
+                [
+                    "pierce/div.actions-container div.mat-mdc-form-field-infix"
+                ]
+            ],
+            "offsetY": 29.53125,
+            "offsetX": 121
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "#mat-option-0 > span"
+                ],
+                [
+                    "xpath///*[@id=\"mat-option-0\"]/span"
+                ],
+                [
+                    "pierce/#mat-option-0 > span"
+                ]
+            ],
+            "offsetY": 22.53125,
+            "offsetX": 62
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "tr:nth-of-type(1) button.icon-danger svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[11]/div/button[2]/fa-icon/svg"
+                ],
+                [
+                    "pierce/tr:nth-of-type(1) button.icon-danger svg"
+                ]
+            ],
+            "offsetY": 1.28125,
+            "offsetX": 4.15625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Oui"
+                ],
+                [
+                    "button.btn-primary"
+                ],
+                [
+                    "xpath///*[@id=\"mat-mdc-dialog-3\"]/div/div/app-custom-mat-dialog/mat-dialog-actions/button[2]"
+                ],
+                [
+                    "pierce/button.btn-primary"
+                ],
+                [
+                    "text/Oui"
+                ]
+            ],
+            "offsetY": 21.5,
+            "offsetX": 58.734375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "tr:nth-of-type(2) button.icon-primary svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[2]/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/tr:nth-of-type(2) button.icon-primary svg"
+                ]
+            ],
+            "offsetY": 14.28125,
+            "offsetX": 4.15625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Sauvegarder[role=\"img\"]"
+                ],
+                [
+                    "button.icon-success svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[2]/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/button.icon-success svg"
+                ]
+            ],
+            "offsetY": 15.28125,
+            "offsetX": 6.15625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "tr:nth-of-type(2) button.icon-primary svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[2]/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/tr:nth-of-type(2) button.icon-primary svg"
+                ]
+            ],
+            "offsetY": 15.28125,
+            "offsetX": 6.15625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/2696",
+                    "aria/[role=\"spinbutton\"]"
+                ],
+                [
+                    "tr:nth-of-type(2) > td.cdk-column-netAmount4 input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[2]/td[9]/app-input-handler/input"
+                ],
+                [
+                    "pierce/tr:nth-of-type(2) > td.cdk-column-netAmount4 input"
+                ],
+                [
+                    "text/2696"
+                ]
+            ],
+            "offsetY": 15.03125,
+            "offsetX": 111.125
+        },
+        {
+            "type": "change",
+            "value": "2699",
+            "selectors": [
+                [
+                    "aria/2696",
+                    "aria/[role=\"spinbutton\"]"
+                ],
+                [
+                    "tr:nth-of-type(2) > td.cdk-column-netAmount4 input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[2]/td[9]/app-input-handler/input"
+                ],
+                [
+                    "pierce/tr:nth-of-type(2) > td.cdk-column-netAmount4 input"
+                ],
+                [
+                    "text/2696"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Sauvegarder[role=\"img\"]",
+                    "aria/[role=\"graphics-symbol\"]"
+                ],
+                [
+                    "button.icon-success path"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[2]/td[11]/div/button[1]/fa-icon/svg/path"
+                ],
+                [
+                    "pierce/button.icon-success path"
+                ]
+            ],
+            "offsetY": 1.15625,
+            "offsetX": 12.15625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "tr:nth-of-type(2) button.icon-primary svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[2]/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/tr:nth-of-type(2) button.icon-primary svg"
+                ]
+            ],
+            "offsetY": 15.28125,
+            "offsetX": 1.15625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "tr:nth-of-type(2) > td.cdk-column-usersLevel4 div.p-multiselect-label-container"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[2]/td[10]/app-custom-multi-select/p-multiselect/div/div[2]"
+                ],
+                [
+                    "pierce/tr:nth-of-type(2) > td.cdk-column-usersLevel4 div.p-multiselect-label-container"
+                ]
+            ],
+            "offsetY": 14.53125,
+            "offsetX": 44.25
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "p-multiselectitem:nth-of-type(1) > li > span"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[2]/ul/p-multiselectitem[1]/li/span"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(1) > li > span"
+                ]
+            ],
+            "offsetY": 14.53125,
+            "offsetX": 44.25
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Yves M."
+                ],
+                [
+                    "p-multiselectitem:nth-of-type(2) > li"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[2]/ul/p-multiselectitem[2]/li"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(2) > li"
+                ]
+            ],
+            "offsetY": 35.53125,
+            "offsetX": 81.25
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "div.p-multiselect-header > button"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[1]/button"
+                ],
+                [
+                    "pierce/div.p-multiselect-header > button"
+                ]
+            ],
+            "offsetY": 29.53125,
+            "offsetX": 23.25
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "td.cdk-column-usersLevel3 span.p-multiselect-token-icon"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[2]/td[8]/app-custom-multi-select/p-multiselect/div/div[2]/div/div/span[2]"
+                ],
+                [
+                    "pierce/td.cdk-column-usersLevel3 span.p-multiselect-token-icon"
+                ]
+            ],
+            "offsetY": 11.03125,
+            "offsetX": 11.0625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Sauvegarder[role=\"img\"]",
+                    "aria/[role=\"graphics-symbol\"]"
+                ],
+                [
+                    "button.icon-success path"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[2]/td[11]/div/button[1]/fa-icon/svg/path"
+                ],
+                [
+                    "pierce/button.icon-success path"
+                ]
+            ],
+            "offsetY": 5.15625,
+            "offsetX": 3.15625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "tr:nth-of-type(2) > td.cdk-column-usersLevel3 div.p-multiselect-label-container"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[2]/td[8]/app-custom-multi-select/p-multiselect/div/div[2]"
+                ],
+                [
+                    "pierce/tr:nth-of-type(2) > td.cdk-column-usersLevel3 div.p-multiselect-label-container"
+                ]
+            ],
+            "offsetY": 12.03125,
+            "offsetX": 70.8125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "p-multiselectitem:nth-of-type(3) > li > span"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[2]/ul/p-multiselectitem[3]/li/span"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(3) > li > span"
+                ]
+            ],
+            "offsetY": 17.03125,
+            "offsetX": 60.8125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Christophe L.[role=\"listitem\"]"
+                ],
+                [
+                    "p-multiselectitem:nth-of-type(4) > li"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[2]/ul/p-multiselectitem[4]/li"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(4) > li"
+                ]
+            ],
+            "offsetY": 34.03125,
+            "offsetX": 94.8125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "p-multiselectitem:nth-of-type(1) > li > span"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[2]/ul/p-multiselectitem[1]/li/span"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(1) > li > span"
+                ]
+            ],
+            "offsetY": 14.03125,
+            "offsetX": 23.8125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "tr:nth-of-type(2) > td.cdk-column-usersLevel2 span.p-multiselect-token-label"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[2]/td[6]/app-custom-multi-select/p-multiselect/div/div[2]/div/div/span[1]"
+                ],
+                [
+                    "pierce/tr:nth-of-type(2) > td.cdk-column-usersLevel2 span.p-multiselect-token-label"
+                ]
+            ],
+            "offsetY": 10.53125,
+            "offsetX": 25.375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Laurent B.[role=\"listitem\"]"
+                ],
+                [
+                    "p-multiselectitem:nth-of-type(3) > li"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[2]/ul/p-multiselectitem[3]/li"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(3) > li"
+                ]
+            ],
+            "offsetY": 13.53125,
+            "offsetX": 163.375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "div.p-multiselect-header"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[1]"
+                ],
+                [
+                    "pierce/div.p-multiselect-header"
+                ]
+            ],
+            "offsetY": 61.53125,
+            "offsetX": 308.375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "div.p-multiselect-header > button"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[1]/button"
+                ],
+                [
+                    "pierce/div.p-multiselect-header > button"
+                ]
+            ],
+            "offsetY": 12.53125,
+            "offsetX": 34.375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Sauvegarder[role=\"img\"]"
+                ],
+                [
+                    "button.icon-success svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[2]/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/button.icon-success svg"
+                ]
+            ],
+            "offsetY": 7.78125,
+            "offsetX": 9.15625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "tr:nth-of-type(2) button.icon-primary svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[2]/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/tr:nth-of-type(2) button.icon-primary svg"
+                ]
+            ],
+            "offsetY": 8.78125,
+            "offsetX": 9.15625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Laurent B.[role=\"listitem\"]"
+                ],
+                [
+                    "p-multiselectitem:nth-of-type(3) > li"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[2]/ul/p-multiselectitem[3]/li"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(3) > li"
+                ]
+            ],
+            "offsetY": 9.03125,
+            "offsetX": 210.9375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/François F."
+                ],
+                [
+                    "p-multiselectitem:nth-of-type(11) > li"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[2]/ul/p-multiselectitem[11]/li"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(11) > li"
+                ]
+            ],
+            "offsetY": 42.03125,
+            "offsetX": 205.9375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Pierrick G.[role=\"listitem\"]"
+                ],
+                [
+                    "p-multiselectitem:nth-of-type(12) > li"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[2]/ul/p-multiselectitem[12]/li"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(12) > li"
+                ]
+            ],
+            "offsetY": 20.03125,
+            "offsetX": 152.9375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "div.ng-tns-c46-190 button > span"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[1]/button/span"
+                ],
+                [
+                    "pierce/div.ng-tns-c46-190 button > span"
+                ]
+            ],
+            "offsetY": 15.03125,
+            "offsetX": 9.9375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Sauvegarder[role=\"img\"]"
+                ],
+                [
+                    "button.icon-success svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[2]/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/button.icon-success svg"
+                ]
+            ],
+            "offsetY": 7.28125,
+            "offsetX": 8.15625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "section > div:nth-of-type(2) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"mat-select-value-5\"]/span/span"
+                ],
+                [
+                    "pierce/section > div:nth-of-type(2) span > span"
+                ]
+            ],
+            "offsetY": 8.671875,
+            "offsetX": 10.015625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "#mat-option-3 > span"
+                ],
+                [
+                    "xpath///*[@id=\"mat-option-3\"]/span"
+                ],
+                [
+                    "pierce/#mat-option-3 > span"
+                ],
+                [
+                    "text/50"
+                ]
+            ],
+            "offsetY": 3.671875,
+            "offsetX": 17.015625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/6",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "div:nth-of-type(8) span"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/app-pagination/div/div[2]/div/pagination-template/div[8]/button/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(8) span"
+                ]
+            ],
+            "offsetY": 11.671875,
+            "offsetX": 17.875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "#mat-select-value-5"
+                ],
+                [
+                    "xpath///*[@id=\"mat-select-value-5\"]"
+                ],
+                [
+                    "pierce/#mat-select-value-5"
+                ]
+            ],
+            "offsetY": 13.671875,
+            "offsetX": 36
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "#mat-option-4 > span"
+                ],
+                [
+                    "xpath///*[@id=\"mat-option-4\"]/span"
+                ],
+                [
+                    "pierce/#mat-option-4 > span"
+                ],
+                [
+                    "text/100"
+                ]
+            ],
+            "offsetY": 21.671875,
+            "offsetX": 21
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/3",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "div:nth-of-type(5) span"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/app-pagination/div/div[2]/div/pagination-template/div[5]/button/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(5) span"
+                ]
+            ],
+            "offsetY": 11.671875,
+            "offsetX": 14
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "#mat-select-value-5"
+                ],
+                [
+                    "xpath///*[@id=\"mat-select-value-5\"]"
+                ],
+                [
+                    "pierce/#mat-select-value-5"
+                ]
+            ],
+            "offsetY": 6.671875,
+            "offsetX": 32
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/20"
+                ],
+                [
+                    "#mat-option-2"
+                ],
+                [
+                    "xpath///*[@id=\"mat-option-2\"]"
+                ],
+                [
+                    "pierce/#mat-option-2"
+                ]
+            ],
+            "offsetY": 22.671875,
+            "offsetX": 38
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Code société",
+                    "aria/[role=\"textbox\"]"
+                ],
+                [
+                    "th.cdk-column-companyCode > input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/thead/tr[2]/th[2]/input"
+                ],
+                [
+                    "pierce/th.cdk-column-companyCode > input"
+                ]
+            ],
+            "offsetY": 11.53125,
+            "offsetX": 91.96875
+        },
+        {
+            "type": "change",
+            "value": "acme_a*",
+            "selectors": [
+                [
+                    "aria/Code société",
+                    "aria/[role=\"textbox\"]"
+                ],
+                [
+                    "th.cdk-column-companyCode > input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/thead/tr[2]/th[2]/input"
+                ],
+                [
+                    "pierce/th.cdk-column-companyCode > input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Appliquer"
+                ],
+                [
+                    "div:nth-of-type(2) app-btn-action:nth-of-type(1) > button"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/thead/tr[2]/th[11]/app-btn-action[1]/button"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) app-btn-action:nth-of-type(1) > button"
+                ]
+            ],
+            "offsetY": 21.53125,
+            "offsetX": 46.5625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Code site",
+                    "aria/[role=\"textbox\"]"
+                ],
+                [
+                    "th.cdk-column-siteCode > input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/thead/tr[2]/th[3]/input"
+                ],
+                [
+                    "pierce/th.cdk-column-siteCode > input"
+                ]
+            ],
+            "offsetY": 11.53125,
+            "offsetX": 70.28125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Label",
+                    "aria/[role=\"textbox\"]"
+                ],
+                [
+                    "th.cdk-column-label > input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/thead/tr[2]/th[1]/input"
+                ],
+                [
+                    "pierce/th.cdk-column-label > input"
+                ]
+            ],
+            "offsetY": 16.53125,
+            "offsetX": 73.65625
+        },
+        {
+            "type": "change",
+            "value": "p*",
+            "selectors": [
+                [
+                    "aria/Label",
+                    "aria/[role=\"textbox\"]"
+                ],
+                [
+                    "th.cdk-column-label > input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/thead/tr[2]/th[1]/input"
+                ],
+                [
+                    "pierce/th.cdk-column-label > input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "th.cdk-column-usersLevel2 div.p-multiselect-label-container"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/thead/tr[2]/th[6]/app-custom-multi-select/p-multiselect/div/div[2]"
+                ],
+                [
+                    "pierce/th.cdk-column-usersLevel2 div.p-multiselect-label-container"
+                ]
+            ],
+            "offsetY": 1.53125,
+            "offsetX": 49.953125
+        },
+        {
+            "type": "change",
+            "value": "st",
+            "selectors": [
+                [
+                    "div.ng-tns-c46-10 input"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[1]/div/input"
+                ],
+                [
+                    "pierce/div.ng-tns-c46-10 input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "li > span"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[2]/ul/p-multiselectitem/li/span"
+                ],
+                [
+                    "pierce/li > span"
+                ]
+            ],
+            "offsetY": 2.53125,
+            "offsetX": 28.953125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "div.ng-tns-c46-10 button"
+                ],
+                [
+                    "xpath//html/body/div[4]/div/div/div[1]/button"
+                ],
+                [
+                    "pierce/div.ng-tns-c46-10 button"
+                ]
+            ],
+            "offsetY": 7.53125,
+            "offsetX": 15.953125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Appliquer"
+                ],
+                [
+                    "div:nth-of-type(2) app-btn-action:nth-of-type(1) > button"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/thead/tr[2]/th[11]/app-btn-action[1]/button"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) app-btn-action:nth-of-type(1) > button"
+                ]
+            ],
+            "offsetY": 7.53125,
+            "offsetX": 45.078125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "th.cdk-column-netAmount3 div:nth-of-type(2) > input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/thead/tr[2]/th[7]/div/div[2]/input"
+                ],
+                [
+                    "pierce/th.cdk-column-netAmount3 div:nth-of-type(2) > input"
+                ]
+            ],
+            "offsetY": 20.53125,
+            "offsetX": 15.8125
+        },
+        {
+            "type": "change",
+            "value": "2000",
+            "selectors": [
+                [
+                    "th.cdk-column-netAmount3 div:nth-of-type(2) > input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/thead/tr[2]/th[7]/div/div[2]/input"
+                ],
+                [
+                    "pierce/th.cdk-column-netAmount3 div:nth-of-type(2) > input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Appliquer"
+                ],
+                [
+                    "div:nth-of-type(2) app-btn-action:nth-of-type(1) > button"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/thead/tr[2]/th[11]/app-btn-action[1]/button"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) app-btn-action:nth-of-type(1) > button"
+                ]
+            ],
+            "offsetY": 0.53125,
+            "offsetX": 21.078125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) app-btn-action:nth-of-type(2) span"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/thead/tr[2]/th[11]/app-btn-action[2]/button/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) app-btn-action:nth-of-type(2) span"
+                ],
+                [
+                    "text/Supprimer"
+                ]
+            ],
+            "offsetY": 14.53125,
+            "offsetX": 24.328125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/portal/?token-id=5f9e49a9-e369-4a82-85e6-e0956f33149a",
+            "selectors": [
+                [
+                    "aria/logout"
+                ],
+                [
+                    "button:nth-of-type(3) img"
+                ],
+                [
+                    "xpath//html/body/app-root/app-view/div/app-top-menu/mat-toolbar/mat-toolbar-row/button[3]/span[1]/img"
+                ],
+                [
+                    "pierce/button:nth-of-type(3) img"
+                ]
+            ],
+            "offsetY": 4.546875,
+            "offsetX": 16,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id=",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id=",
+            "selectors": [
+                [
+                    "aria/Identifiant *"
+                ],
+                [
+                    "#username"
+                ],
+                [
+                    "xpath///*[@id=\"username\"]"
+                ],
+                [
+                    "pierce/#username"
+                ]
+            ],
+            "offsetY": 2,
+            "offsetX": 212
+        },
+        {
+            "type": "change",
+            "value": "fgf",
+            "selectors": [
+                [
+                    "aria/Identifiant *"
+                ],
+                [
+                    "#username"
+                ],
+                [
+                    "xpath///*[@id=\"username\"]"
+                ],
+                [
+                    "pierce/#username"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id="
+        },
+        {
+            "type": "keyDown",
+            "target": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id=",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id="
+        },
+        {
+            "type": "change",
+            "value": "a",
+            "selectors": [
+                [
+                    "aria/Mot de passe *"
+                ],
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id="
+        },
+        {
+            "type": "keyDown",
+            "target": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id=",
+            "key": "Enter",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id=",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "keyUp",
+            "key": "Enter",
+            "target": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id=",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://azrb38mabr3xed1.itesoft.local/portal/?token-id=366ece71-332a-4d2e-9b34-64929227a596",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/portal/?token-id=366ece71-332a-4d2e-9b34-64929227a596",
+            "selectors": [
+                [
+                    "aria/Image of product product.as.title"
+                ],
+                [
+                    "div:nth-of-type(5) img"
+                ],
+                [
+                    "xpath//html/body/app-root/app-view/div/app-tiles-container/div/div/div[5]/div/div[2]/img"
+                ],
+                [
+                    "pierce/div:nth-of-type(5) img"
+                ]
+            ],
+            "offsetY": 44,
+            "offsetX": 106.828125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/ Ajouter Route"
+                ],
+                [
+                    "div.actions-container > app-btn-action:nth-of-type(1) > button"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[1]/app-btn-action[1]/button"
+                ],
+                [
+                    "pierce/div.actions-container > app-btn-action:nth-of-type(1) > button"
+                ]
+            ],
+            "offsetY": 0.53125,
+            "offsetX": 128
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "tr:nth-of-type(1) > td.cdk-column-label input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[1]/app-input-handler/input"
+                ],
+                [
+                    "pierce/tr:nth-of-type(1) > td.cdk-column-label input"
+                ]
+            ],
+            "offsetY": 0.53125,
+            "offsetX": 83
+        },
+        {
+            "type": "change",
+            "value": "label2",
+            "selectors": [
+                [
+                    "tr:nth-of-type(1) > td.cdk-column-label input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[1]/app-input-handler/input"
+                ],
+                [
+                    "pierce/tr:nth-of-type(1) > td.cdk-column-label input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "keyDown",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "change",
+            "value": "company2",
+            "selectors": [
+                [
+                    "tr:nth-of-type(1) > td.cdk-column-companyCode input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[2]/app-input-handler/input"
+                ],
+                [
+                    "pierce/tr:nth-of-type(1) > td.cdk-column-companyCode input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "keyDown",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "change",
+            "value": "site2",
+            "selectors": [
+                [
+                    "tr:nth-of-type(1) > td.cdk-column-siteCode input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[3]/app-input-handler/input"
+                ],
+                [
+                    "pierce/tr:nth-of-type(1) > td.cdk-column-siteCode input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "tr:nth-of-type(1) > td.cdk-column-usersLevel1 div.p-multiselect-label-container"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[4]/app-custom-multi-select/p-multiselect/div/div[2]"
+                ],
+                [
+                    "pierce/tr:nth-of-type(1) > td.cdk-column-usersLevel1 div.p-multiselect-label-container"
+                ]
+            ],
+            "offsetY": 37.53125,
+            "offsetX": 50.734375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Yves M."
+                ],
+                [
+                    "p-multiselectitem:nth-of-type(2) > li"
+                ],
+                [
+                    "xpath//html/body/div[2]/div/div/div[2]/ul/p-multiselectitem[2]/li"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(2) > li"
+                ]
+            ],
+            "offsetY": 32.53125,
+            "offsetX": 109.734375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Benoit P."
+                ],
+                [
+                    "p-multiselectitem:nth-of-type(1) > li"
+                ],
+                [
+                    "xpath//html/body/div[2]/div/div/div[2]/ul/p-multiselectitem[1]/li"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(1) > li"
+                ]
+            ],
+            "offsetY": 30.53125,
+            "offsetX": 148.734375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "div.p-multiselect-header > button"
+                ],
+                [
+                    "xpath//html/body/div[2]/div/div/div[1]/button"
+                ],
+                [
+                    "pierce/div.p-multiselect-header > button"
+                ]
+            ],
+            "offsetY": 32.53125,
+            "offsetX": 8.734375
+        },
+        {
+            "type": "change",
+            "value": "0.01",
+            "selectors": [
+                [
+                    "aria/0,01",
+                    "aria/[role=\"spinbutton\"]"
+                ],
+                [
+                    "tr:nth-of-type(1) > td.cdk-column-netAmount2 input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[5]/app-input-handler/input"
+                ],
+                [
+                    "pierce/tr:nth-of-type(1) > td.cdk-column-netAmount2 input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "tr:nth-of-type(1) > td.cdk-column-netAmount2 input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[5]/app-input-handler/input"
+                ],
+                [
+                    "pierce/tr:nth-of-type(1) > td.cdk-column-netAmount2 input"
+                ]
+            ],
+            "offsetY": 10.53125,
+            "offsetX": 128.3125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "tr:nth-of-type(1) > td.cdk-column-usersLevel2 div.p-multiselect-label-container"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[6]/app-custom-multi-select/p-multiselect/div/div[2]"
+                ],
+                [
+                    "pierce/tr:nth-of-type(1) > td.cdk-column-usersLevel2 div.p-multiselect-label-container"
+                ]
+            ],
+            "offsetY": 36.53125,
+            "offsetX": 40.65625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Charger plus ..."
+                ],
+                [
+                    "div.p-multiselect-footer > button"
+                ],
+                [
+                    "xpath//html/body/div[2]/div/div/div[3]/button"
+                ],
+                [
+                    "pierce/div.p-multiselect-footer > button"
+                ],
+                [
+                    "text/Charger plus"
+                ]
+            ],
+            "offsetY": 22.53125,
+            "offsetX": 67.734375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Stanislas S."
+                ],
+                [
+                    "p-multiselectitem:nth-of-type(36) > li"
+                ],
+                [
+                    "xpath//html/body/div[2]/div/div/div[2]/ul/p-multiselectitem[36]/li"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(36) > li"
+                ]
+            ],
+            "offsetY": 22.53125,
+            "offsetX": 144.65625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Tom T."
+                ],
+                [
+                    "p-multiselectitem:nth-of-type(35) > li"
+                ],
+                [
+                    "xpath//html/body/div[2]/div/div/div[2]/ul/p-multiselectitem[35]/li"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(35) > li"
+                ]
+            ],
+            "offsetY": 34.53125,
+            "offsetX": 92.65625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/"
+                ],
+                [
+                    "div.p-multiselect-header > button"
+                ],
+                [
+                    "xpath//html/body/div[2]/div/div/div[1]/button"
+                ],
+                [
+                    "pierce/div.p-multiselect-header > button"
+                ]
+            ],
+            "offsetY": 1.53125,
+            "offsetX": 22.65625
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "tr:nth-of-type(1) > td.cdk-column-netAmount3 input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[7]/app-input-handler/input"
+                ],
+                [
+                    "pierce/tr:nth-of-type(1) > td.cdk-column-netAmount3 input"
+                ]
+            ],
+            "offsetY": 12.53125,
+            "offsetX": 102.234375
+        },
+        {
+            "type": "change",
+            "value": "89",
+            "selectors": [
+                [
+                    "tr:nth-of-type(1) > td.cdk-column-netAmount3 input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[7]/app-input-handler/input"
+                ],
+                [
+                    "pierce/tr:nth-of-type(1) > td.cdk-column-netAmount3 input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "tr:nth-of-type(1) > td.cdk-column-usersLevel3 div.p-multiselect-label-container"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[8]/app-custom-multi-select/p-multiselect/div/div[2]"
+                ],
+                [
+                    "pierce/tr:nth-of-type(1) > td.cdk-column-usersLevel3 div.p-multiselect-label-container"
+                ]
+            ],
+            "offsetY": 42.53125,
+            "offsetX": 83.578125
+        },
+        {
+            "type": "change",
+            "value": "ar",
+            "selectors": [
+                [
+                    "div.p-multiselect-filter-container > input"
+                ],
+                [
+                    "xpath//html/body/div[2]/div/div/div[1]/div[2]/input"
+                ],
+                [
+                    "pierce/div.p-multiselect-filter-container > input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Arnaud T."
+                ],
+                [
+                    "li"
+                ],
+                [
+                    "xpath//html/body/div[2]/div/div/div[2]/ul/p-multiselectitem/li"
+                ],
+                [
+                    "pierce/li"
+                ]
+            ],
+            "offsetY": 27.53125,
+            "offsetX": 40.578125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Sauvegarder[role=\"img\"]"
+                ],
+                [
+                    "button.icon-success svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/button.icon-success svg"
+                ]
+            ],
+            "offsetY": 10.78125,
+            "offsetX": 1.421875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "tr:nth-of-type(1) button.icon-primary path"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[11]/div/button[1]/fa-icon/svg/path"
+                ],
+                [
+                    "pierce/tr:nth-of-type(1) button.icon-primary path"
+                ]
+            ],
+            "offsetY": 8.64471435546875,
+            "offsetX": 11.421875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/site[role=\"textbox\"]"
+                ],
+                [
+                    "tr:nth-of-type(1) > td.cdk-column-siteCode input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[3]/app-input-handler/input"
+                ],
+                [
+                    "pierce/tr:nth-of-type(1) > td.cdk-column-siteCode input"
+                ]
+            ],
+            "offsetY": 19.53125,
+            "offsetX": 119.15625
+        },
+        {
+            "type": "change",
+            "value": "sites",
+            "selectors": [
+                [
+                    "aria/site[role=\"textbox\"]"
+                ],
+                [
+                    "tr:nth-of-type(1) > td.cdk-column-siteCode input"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[3]/app-input-handler/input"
+                ],
+                [
+                    "pierce/tr:nth-of-type(1) > td.cdk-column-siteCode input"
+                ]
+            ],
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/"
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Sauvegarder[role=\"img\"]"
+                ],
+                [
+                    "button.icon-success svg"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[11]/div/button[1]/fa-icon/svg"
+                ],
+                [
+                    "pierce/button.icon-success svg"
+                ]
+            ],
+            "offsetY": 17.78125,
+            "offsetX": 6.421875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "th.cdk-column-usersLevel1 div.p-multiselect-label-container"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/thead/tr[2]/th[4]/app-custom-multi-select/p-multiselect/div/div[2]"
+                ],
+                [
+                    "pierce/th.cdk-column-usersLevel1 div.p-multiselect-label-container"
+                ]
+            ],
+            "offsetY": 21.53125,
+            "offsetX": 70.03125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Benoit P."
+                ],
+                [
+                    "p-multiselectitem:nth-of-type(1) > li"
+                ],
+                [
+                    "xpath//html/body/div[3]/div/div/div[2]/ul/p-multiselectitem[1]/li"
+                ],
+                [
+                    "pierce/p-multiselectitem:nth-of-type(1) > li"
+                ]
+            ],
+            "offsetY": 40.53125,
+            "offsetX": 71.03125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "div.ng-tns-c46-9 button > span"
+                ],
+                [
+                    "xpath//html/body/div[3]/div/div/div[1]/button/span"
+                ],
+                [
+                    "pierce/div.ng-tns-c46-9 button > span"
+                ]
+            ],
+            "offsetY": 12.53125,
+            "offsetX": 5.03125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Appliquer"
+                ],
+                [
+                    "div:nth-of-type(2) app-btn-action:nth-of-type(1) > button"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/thead/tr[2]/th[11]/app-btn-action[1]/button"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) app-btn-action:nth-of-type(1) > button"
+                ]
+            ],
+            "offsetY": 22.53125,
+            "offsetX": 108.078125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Supprimer[role=\"button\"]",
+                    "aria/[role=\"graphics-symbol\"]"
+                ],
+                [
+                    "div:nth-of-type(2) app-btn-action:nth-of-type(2) path"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/thead/tr[2]/th[11]/app-btn-action[2]/button/fa-icon/svg/path"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) app-btn-action:nth-of-type(2) path"
+                ]
+            ],
+            "offsetY": 2.19879150390625,
+            "offsetX": 1.3125
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "tr:nth-of-type(1) button.icon-danger path"
+                ],
+                [
+                    "xpath//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/main/app-workflow-list/section/div[2]/div/table/tbody/tr[1]/td[11]/div/button[2]/fa-icon/svg/path"
+                ],
+                [
+                    "pierce/tr:nth-of-type(1) button.icon-danger path"
+                ]
+            ],
+            "offsetY": 2.78125,
+            "offsetX": 1.421875
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/routing-manager/",
+            "selectors": [
+                [
+                    "aria/Oui"
+                ],
+                [
+                    "button.btn-primary"
+                ],
+                [
+                    "xpath///*[@id=\"mat-mdc-dialog-0\"]/div/div/app-custom-mat-dialog/mat-dialog-actions/button[2]"
+                ],
+                [
+                    "pierce/button.btn-primary"
+                ],
+                [
+                    "text/Oui"
+                ]
+            ],
+            "offsetY": 28.5,
+            "offsetX": 32.734375
+        },
+        {
+            "type": "click",
+            "target": "https://azrb38mabr3xed1.itesoft.local/portal/?token-id=366ece71-332a-4d2e-9b34-64929227a596",
+            "selectors": [
+                [
+                    "aria/logout"
+                ],
+                [
+                    "button:nth-of-type(3) img"
+                ],
+                [
+                    "xpath//html/body/app-root/app-view/div/app-top-menu/mat-toolbar/mat-toolbar-row/button[3]/span[1]/img"
+                ],
+                [
+                    "pierce/button:nth-of-type(3) img"
+                ]
+            ],
+            "offsetY": 13.546875,
+            "offsetX": 0,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://azrb38mabr3xed1.itesoft.local/token-provider/user-manager-token-provider/auth?onlyTokenId=true&useCookie=true&returnTo=https://azrb38mabr3xed1.itesoft.local/portal/?token-id=",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}

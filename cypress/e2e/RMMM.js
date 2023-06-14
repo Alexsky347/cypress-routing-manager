@@ -1,0 +1,32 @@
+describe("RMMM", () => {
+  it("tests RMMM", () => {
+    cy.viewport(1330, 1240);
+    cy.visit("https://localhost/token-provider/user-manager-token-provider/auth?useCookie=true&returnTo=http://localhost:4200//?token-id=");
+    cy.get("#username").click();
+    cy.get("#username").type("benoit");
+    cy.get("#password").type("a");
+    cy.type("{enter}");
+    cy.get("#mat-select-value-1").click();
+    cy.get("#mat-option-1 > span").click();
+    cy.get("tr:nth-of-type(2) button.icon-primary svg").click();
+    cy.get("tr:nth-of-type(2) > td.cdk-column-label input").click();
+    cy.get("tr:nth-of-type(2) > td.cdk-column-label input").type("Ma route 2445");
+    cy.get("button.icon-success").click();
+    cy.get("tr:nth-of-type(2) button.icon-primary path").click();
+    cy.get("tr:nth-of-type(2) > td.cdk-column-label input").click();
+    cy.get("tr:nth-of-type(2) > td.cdk-column-label input").type("Ma route 2");
+    cy.get("button.icon-success path").click();
+    cy.get("div.actions-container > app-btn-action:nth-of-type(1) span").click();
+    cy.get("tr:nth-of-type(1) > td.cdk-column-label input").click();
+    cy.get("tr:nth-of-type(1) > td.cdk-column-label input").type("route");
+    cy.get("tr:nth-of-type(1) > td.cdk-column-companyCode input").type("er");
+    cy.get("tr:nth-of-type(1) > td.cdk-column-siteCode input").click();
+    cy.get("tr:nth-of-type(1) > td.cdk-column-siteCode input").type("trt");
+    cy.get("tr:nth-of-type(1) > td.cdk-column-usersLevel1 div.p-multiselect-label-container").click();
+    cy.get("p-multiselectitem:nth-of-type(1) div > div").click();
+    cy.get("div.ng-tns-c69-40 button > span").click();
+    cy.get("button.icon-success svg").click();
+    cy.get("tr:nth-of-type(3) button.icon-danger svg").click();
+    cy.get("button.btn-primary").click();
+  });
+});
